@@ -50,7 +50,14 @@
     }
     ul ul {
         margin-left: -1em;
-        margin-bottom: .8em;
+        margin-bottom: 1em;
+    }
+    .li_name > ul{
+        display: none;
+    }
+    .li_name:hover > ul{
+        display: block;
+        transition: all 5s linear 5s;
     }
     span{
         position: absolute;
