@@ -1,7 +1,7 @@
 <?php
-$db_host = "localhost";
-$db_name = "birthday";
-$db_user = "root";
+$db_host = "";
+$db_name = "";
+$db_user = "";
 $db_pwd = "";
 try {
     
