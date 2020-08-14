@@ -50,14 +50,14 @@
     }
     ul ul {
         margin-left: -1em;
-        margin-bottom: 1em;
+        margin-bottom: .1em;
     }
-    .li_name > ul{
-        display: none;
+    .li_parent > ul li{
+        opacity: 0;
+        transition: all .4s linear;
     }
-    .li_name:hover > ul{
-        display: block;
-        transition: all 5s linear 5s;
+    .li_parent:hover > ul li{
+        opacity: 1;
     }
     span{
         position: absolute;
@@ -66,6 +66,7 @@
     }
     input, textarea{
         font-family: Arial, sans-serif;
+        font-size: .9rem;
         outline: none;
         display: block;
         width: 95%;
